@@ -1,0 +1,41 @@
+
+.carousel {
+
+    margin-bottom: 40px;
+
+    .carousel-indicators {
+        bottom: -39px;
+        li {
+            background-color: #ebeaf1; 
+            border-radius: 2px;
+    
+            &.active {
+                background-color: #785ee5;
+            }
+        }
+    }
+
+}
+
+.slider-container {
+    position: relative;
+    .customNavigation {
+        
+        .btn {
+            position: absolute;
+            top:50%;
+            z-index: 3;
+
+            &.prev {
+                left: 0;
+
+            }
+
+            &.next {
+                right:0;
+                
+            }
+            
+        }
+    }
+}

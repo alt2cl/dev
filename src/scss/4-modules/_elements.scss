@@ -1,0 +1,126 @@
+.bt_category-highlight {
+    min-width: 240px;
+    text-align: center;
+    min-height: 92px;
+    border-radius: 14.8px;
+    background-color: #f7f6f9;
+    font-size: 12px;
+    color: #999999;
+    padding: 0 20px;
+    a {
+        color: #999999;
+        text-transform: uppercase;
+    }
+}
+
+.pink-btn {
+    border-radius: 6px;
+   background-color: #f7dceb;
+   font-size: 12px;
+   color: #de5aa5;
+   border-color: #f7dceb;
+}
+
+
+
+.orange-btn {
+    border-radius: 6px;
+   background-color: #faecdd;
+   font-size: 12px;
+   color: #f6bd84;
+   border-color: #faecdd;
+}
+
+.green-btn {
+    border-radius: 6px;
+   background-color: #d9f3f0;
+   font-size: 12px;
+   color: #64d4c7;
+   border-color: #d9f3f0;
+}
+
+.purple-btn {
+    border-radius: 6px;
+   font-size: 12px;
+   border-color: #c7bcf0;
+    background-color: #c7bcf0;
+    color: #785ee5;
+}
+
+.login-btn {
+    padding: 0 20px;
+
+    a {
+        font-size: 12px;
+        color: black
+    }
+    
+
+}
+
+.register-btn {
+    padding: 0 20px;
+
+    a {
+        font-size: 12px;
+        color: #785ee5;
+    }
+    
+
+}
+
+// Spinner
+
+.bt_loading {
+    width: 160px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    /* align-content: center; */
+    align-items: center;
+    margin-bottom: 20px;
+
+    span {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        color:#999;
+    }
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #785ee5;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #785ee5 transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

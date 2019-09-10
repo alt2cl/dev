@@ -1,0 +1,39 @@
+.product-box {
+  display: flex;
+  flex-flow: column;
+}
+
+.tachado {text-decoration:line-through;}
+
+.conditions-price-box {
+  display: flex;
+  flex-flow: column-reverse;
+
+  @media (min-width:768px) {
+    flex-flow: column;
+
+  }
+}
+
+@media (min-width:768px){
+  .product-box {
+  display: block;
+  flex-flow: inherit;
+}
+
+
+.col-prod-l-sm {
+  width:55%;
+  float: left;
+}
+
+.col-prod-r-sm {
+  width:calc(45% - 20px);
+  float: right;
+}
+
+.product-box > div {
+  order:0;
+}
+
+}

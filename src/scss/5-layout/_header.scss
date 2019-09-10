@@ -1,0 +1,69 @@
+.bt_intro-box {
+    //margin-top:200px!important;
+}
+
+
+.main-nav {
+    box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.1);
+
+    > .ml-auto {
+        margin-right: -16px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.secondary-brand {
+    padding-right: 10px;
+    img {
+        height: 18px;
+    }
+}
+
+.bt_intro-box_head {
+    .logo-brand-1 {
+            img {
+                height: 36px;
+                margin:0 10px;
+            }
+    }
+
+    .logo-brand-2 {
+           img {
+               height: 27px;
+               margin:0 10px;
+           }
+    }
+}
+
+.navbar-brand {
+    img {
+        height: 24px;
+    }
+}  
+
+.bt_pills {
+    margin-top: 10px;
+
+    .nav-item {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .nav-link {
+        border-radius: 23px;
+        display: flex;
+        white-space: nowrap;
+
+        font-size: 12px;
+    }
+}
+
+

@@ -1,0 +1,503 @@
+.component {
+    margin-bottom: 40px;
+
+    .component-head {
+        margin-bottom: 15px;
+        .head-icon {
+            margin-bottom: 10px
+        }
+        h3 {
+            color: #323232;
+            font-size: 18px;
+            margin-bottom: 7px;
+        }
+        h5 {
+            font-size: 14px;
+            color: #4c4c4c;
+            margin-bottom: 15px;
+        }
+
+        .head-section-call {
+            line-height: 35px;
+            .icon-head {
+                margin-right: 5px;
+                min-height: 24px;
+            }
+            .title-head {
+                margin-bottom: 0;
+                font-size: 14px;
+                display: flex;
+                flex-direction:column;
+
+                small {
+                    font-size: 12px;
+                    color: #999999;
+                }
+            }
+        
+        }
+    }
+}
+
+.list-pills-box {
+    .nav-item {
+        margin-bottom: 12px;
+    }
+}
+
+.filter-product-component {
+
+    .list-pills-box {
+
+        .bt_pills {
+            flex-wrap: wrap;
+        }
+
+    }
+
+    
+
+}
+
+.list-column {
+    li {
+        margin-bottom: 20px
+    }
+}
+
+.hs-xs {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tab-head.hs-xs {
+    .nav-pills {
+        li {
+            .nav-link {
+                font-size: 12px;
+                text-transform: uppercase;
+                white-space: nowrap;
+                position: relative;
+
+                
+            }
+
+        }
+        
+    }
+}
+
+.horizontal-list-producto {
+    overflow-x: auto;
+    padding: 10px;
+    li {
+        width: calc(33% - 12px);
+        margin-right: 12px;
+    }
+
+    @media (min-width: 992px) {
+        overflow-x: inherit;
+        flex-flow: wrap;
+        li{
+            width: calc(20% - 12px);
+            margin-right: 12px;
+
+        }
+        
+
+    }
+
+    &.mobile-1-item {
+        
+
+        li {
+            min-width: calc(80% - 12px);
+            margin-right: 12px;
+
+            @media (min-width: 992px) {
+                min-width: inherit;
+                width: inherit;
+            }
+        }
+
+        @media (min-width: 992px) {
+            flex-flow: nowrap;
+                
+            }
+
+    }
+}
+
+.step-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .rounded-icon {
+        width: 48px;
+        height: 48px;
+        border: solid 1px #ebeaf1;
+        background-color: #ffffff;
+        border-radius: 50%;
+        overflow: hidden;
+        padding: 3px;
+    }
+    small {
+        font-size: 10px;
+        color:black;
+    }
+}
+
+.list-product-box {
+    
+    .list-product  {
+        flex-flow: wrap;
+        position: relative;
+
+        &:after {
+            content: "";
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            background-color: #ffffff;
+            top: 0;
+            right: 0;
+        }
+        > li {
+            width: 50%;
+            border-right:1px solid #ebeaf1;
+            border-bottom:1px solid #ebeaf1;
+            padding: 10px;
+
+            .thumb {
+                width: 100%;
+                height: auto;
+                max-width: 200px;
+                margin:0 auto;
+            }
+
+            @media (min-width: 768px) {
+                max-width: 20%;
+            }
+        }
+
+    }
+    
+}
+
+.filter-options {
+
+
+    @media (min-width: 768px) {
+        display: flex;
+    }
+
+    .form-group {
+        margin-bottom: 12px;
+
+        label {
+            font-size: 12px;
+            color: #999999;
+            margin-right: 10px;
+            margin-bottom: 0;
+            text-transform: uppercase;
+        }
+        @media (min-width: 992px) {
+            display: flex;
+            align-items: center;
+        }
+
+        .form-control {
+            background-color: #f7f6f9;
+            border:0 none;
+            position: relative;
+            &:after {
+                content:'url(../img/icons/arrow-right.svg)';
+                position: absolute;
+                top:4px;
+                right:6px;
+
+            }
+            @media (min-width: 992px){
+                max-width: 240px;
+            }
+            
+            option {
+                color: #4c4c4c;
+                font-size: 14px;
+
+            }
+
+        }
+
+    }
+
+}
+
+.bt_pills {
+    margin-top: 0;
+    flex-wrap: nowrap;
+
+    .nav-item {
+        //min-width: 145px;
+        text-align: center
+    }
+
+}
+
+.navbar {
+
+    .pills-header {
+
+        max-width: calc(100% - 430px);
+        overflow: hidden;
+            position: relative;
+            bottom: 0;
+        &:after {
+            content: url('../img/icons/arrow-right.svg');
+            position: absolute;
+            top:0;
+            right: 0;
+            width: 80px;
+            height: 100%;
+            background-image: linear-gradient(to left, #f8f9fa, #f8f9fa00);
+            padding-left: 57px;
+            padding-top: 2px;
+        }
+
+        
+        > ul {
+            margin-top:0;
+            margin-left: 20px
+        }
+    }
+
+}
+
+.pills-header {
+    &.d-lg-none {
+        overflow-x: auto;
+        .nav-pills {
+            margin-top:0;
+        }
+    }
+}
+
+.list-brand {
+
+    > ul {
+        > li {
+            margin:0 8px;
+        }
+    }
+
+}
+
+.list-product-box {
+    margin:0 -15px;
+    width: calc(100% + 30px);
+
+    .view1 {
+        .kicker {
+            color:#999;
+        }
+
+    } 
+}
+
+
+
+
+
+
+
+
+
+.multiple-slide-responsive {
+
+    .carousel-inner {
+        padding: 30px 0
+    }
+
+/*
+    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
+    code customized by Azmind.com
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Show 4th slide on md if col-md-4*/
+    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Show 3rd slide on sm if col-sm-6*/
+    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -50%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) {
+    .carousel-item {
+        margin-right: 0;
+    }
+    /* show 2 items */
+    .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* MD */
+@media (min-width: 768px) {
+    /* show 3rd of 3 item slide */
+    .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* LG */
+@media (min-width: 991px) {
+    /* show 4th item */
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    /* Show 5th slide on lg if col-lg-3 */
+    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction //t - previous slide direction last item animation fix */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+
+}
+
+
+.list_pagination {
+    margin-bottom: 300px;
+    .pagination-item {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        border-radius: 50%;
+        margin: 0 2px;
+        display: block;
+        text-align: center;
+        color: #999999;
+
+        &.active {
+            background-color: #f3f0ff;
+            color: #785ee5;
+        }
+    }
+}
+
+.owl-carousel {
+    padding:2em 0;
+
+    &:after {
+        content: '';
+        clear: both;
+        width: 100%;
+        display: block;
+        height: 1px;
+    }
+
+    .owl-item {
+
+        .item {
+            margin:0 4px;
+
+        }
+       
+    }
+    
+}
+
+.hightlight-products-list {
+    li {
+        width: 100%;
+        margin: 0 8px;
+    }
+}

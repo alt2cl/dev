@@ -1,0 +1,36 @@
+
+.hl-conditions {
+    border-radius: 6px;
+    background-color: #f8f6fe;
+    padding: 4px 8px;
+  }
+
+.alert-conditions {
+  border-radius: 6px;
+  background-color: #fdf2e7;
+    padding: 4px 8px;
+    text-align: center;
+    color: #f6bd84;
+
+}
+
+.list-conditions {
+  padding: 10px 0;
+}
+
+  .list-conditions > li {
+    padding-left: 40px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .list-conditions > li p {
+    margin-bottom:5px;
+    line-height: 18px;
+  }
+
+  .list-conditions > li > .icon {
+    margin-left: -40px;
+    float:left;
+
+  }
