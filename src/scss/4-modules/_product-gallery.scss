@@ -1,0 +1,47 @@
+$gray-light:#f7f6f9;
+$gray-text: #4c4c4c;
+
+
+.product-gallery {
+    min-height: 400px; 
+    .main-col {
+        width: calc(100% - 66px);
+        background: #333;
+
+        @media (min-width: 992px) { 
+            width: calc(100% - 88px);
+        }
+    }
+
+    .gal-thumb-item {
+        width: 60px;
+        height: 60px;
+        margin-bottom:3px;
+        @media (min-width: 992px) { 
+            width: 88px;
+            height: 88px;
+            margin-bottom:12px;
+         }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .open-gal-btn {
+        line-height: 48px;
+        background-color: $gray-light;
+        border-radius: 8px;
+        text-align: center;
+        font-size:14px;
+        color:$gray-text;
+        width: 100%;
+
+    }
+
+    .gal-main-img {
+        img {
+            width: 100%;
+        }
+    }
+}
